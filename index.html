@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PlanetRise Foundation</title>
+  <meta name="description" content="PlanetRise Foundation, Inc. — combating climate change and protecting the environment through education, research, innovation, and action." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="brand">PlanetRise Foundation, Inc.</div>
+      <nav>
+        <a href="#mission">Mission</a>
+        <a href="#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="mission" role="img" aria-label="Lush green landscape representing the planet and environmental stewardship.">
+    <div class="hero-inner">
+      <h1>Together for a Cleaner, Healthier Planet</h1>
+      <p>Our mission is to combat climate change and protect the environment through education, research, innovation, and action — empowering individuals and organizations to create sustainable solutions, supporting startups and projects that advance environmental progress, and advocating for policies that promote a cleaner, healthier planet.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About &amp; Vision</h2>
+    <div class="card">
+      <p>
+        PlanetRise Foundation is a nonprofit focused on real climate action and practical solutions.
+        Our vision is simple: operate across the globe so communities everywhere can access tools,
+        knowledge, and support to build a sustainable future.
+      </p>
+      <p class="small">
+        We currently operate in the United States and Taiwan and plan to expand our work internationally.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div>&copy; <span id="year"></span> PlanetRise Foundation, Inc.</div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
